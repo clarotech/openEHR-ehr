@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="openEHR-ehr/openEHR-ehr.csproj" />
+  <Project Path="openEHR-ehr.Tests/openEHR-ehr.Tests.csproj" />
+</Solution>

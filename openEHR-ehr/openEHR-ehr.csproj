@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0;net10.0</TargetFrameworks>
+    <RootNamespace>OpenEHR.RM</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <!-- NuGet packaging -->
+    <PackageId>Clarotech.OpenEHR.RM</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Clarotech</Authors>
+    <Description>A C# implementation of the openEHR Reference Model Release 1.1.0 — EHR, Composition, Common, Support, and Data Structures packages.</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/clarotech/openEHR-rm</RepositoryUrl>
+    <PackageTags>openEHR;EHR;HealthTech;RM;ClinicalData</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- NOTE: NuGet search found OpenEHR.RM.DataTypes (with 's'); verify if user said DataType (without) -->
+    <PackageReference Include="OpenEHR.RM.DataTypes" Version="1.1.1" />
+  </ItemGroup>
+
+</Project>
