@@ -19,7 +19,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- NOTE: NuGet search found OpenEHR.RM.DataTypes (with 's'); verify if user said DataType (without) -->
+    <!-- README must be explicitly included for NuGet packaging -->
+    <None Include="..\README.md" Pack="True" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="OpenEHR.RM.DataTypes" Version="1.1.1" />
   </ItemGroup>
 
