@@ -6,7 +6,9 @@
       "WebFetch(domain:www.nuget.org)",
       "WebFetch(domain:api.github.com)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "WebFetch(domain:api.nuget.org)"
+      "WebFetch(domain:api.nuget.org)",
+      "Bash(gh api *)",
+      "PowerShell(gh api *)"
     ]
   }
 }
